@@ -12,6 +12,7 @@ function generateNumber() {
     msg.innerHTML = "O número sorteado é"
   } else {
     msg.innerHTML = "O primeiro número deve ser maior que o segundo número"
+    drawNumber.innerHTML="?"
   }
 }
 
